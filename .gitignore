@@ -1,0 +1,45 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build results
+bin/
+obj/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Ignore Rider project files
+.idea/
+*.sln.iml
+
+# Ignore Mac files
+.DS_Store
+
+# Ignore Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Ignore folder config file
+Desktop.ini
+
+# Ignore Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Ignore Windows shortcuts
+*.lnk
+
+# Ignore project-specific files
+APL2007M2Sample1.csproj.nuget.dgspec.json
+APL2007M2Sample1.csproj.nuget.g.props
+APL2007M2Sample1.csproj.nuget.g.targets
+project.assets.json
+project.nuget.cache
